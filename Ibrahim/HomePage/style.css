@@ -1,0 +1,138 @@
+.bg-color{
+    background-color: #FFE619;
+}
+.bg-color-1{
+    background-color: #32CACE;
+}
+.bg-color-2{
+    background-color: #A3B7F0;
+}
+.color{
+    color: #3e434b;
+}
+body{
+    font-family: Montserrat , sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.drop{
+
+    height: 0;
+    border: 0;
+    transition: all 300ms;
+    overflow: hidden;
+}
+/* .dropdown{
+  height: 1.5rem;
+
+} */
+.dropdown:hover .drop{
+  border: 1px solid ;
+  top: 42px;
+  height: fit-content;
+  overflow: visible;
+}
+/* .dropdown:hover {
+    height: fit-content;
+} */
+
+.truck-color{
+    background-color: #F5F5F5;
+}
+
+/* .carousal{
+    display: grid;
+    grid-template-columns: repeat(5,100%);
+    
+} */
+
+/* .section-wrapper {
+
+    overflow-y: hidden;
+ 
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-columns:20%;
+    grid-auto-flow: column;
+  }
+   */
+.section-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+ /* .section-wrapper::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 5px;
+  } */
+
+  .carousel-container {
+    overflow: hidden;
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+  }
+  .carousel-content {
+    display: flex;
+    animation: slide-animation 20s infinite linear alternate;
+     /* Adjust the duration as needed */
+  }
+  .carousel-item {
+    width: 100%;
+    /* height: 100vh; */
+    flex-shrink: 0;
+  }
+
+  /* Keyframes for slide animation */
+  @keyframes slide-animation {
+    0%, 20% { transform: translateX(0); }
+    25%, 45% { transform: translateX(-100%); }
+    50%, 70% { transform: translateX(-200%); }
+    75%, 95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+  }
+  #footer-1{
+    position: relative;
+  }
+
+  #footer-1::after{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    top: 0;
+  }
+.footer-content h3{
+    border-bottom: 1px solid #cccccc;
+}
+  .footer-content li{
+     margin-top: 1px;
+     margin-bottom: 1px;
+    font-family: Montserrat;
+    letter-spacing: .6px;
+    color: #3e434b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px
+  }
+  .footer-content li a:hover{
+     border-bottom: 1px solid #cccccc;
+  }
+
+  .btn button{
+    text-align: center;
+    font: 500 10px / 13px Montserrat;
+    letter-spacing: .5px;
+    color: #000;
+    text-transform: uppercase;
+    width: 104px !important;
+    height: 30px;
+    border: 1px solid;
+    transition: all 0.3s;
+    
+  }
+  .btn button:hover{
+    background-color: black;
+    color: #F5F5F5;
+  }
