@@ -30,7 +30,7 @@ li{
 } */
 .dropdown:hover .drop{
   border: 1px solid ;
-  top: 42px;
+top: 32px;
   height: fit-content;
   overflow: visible;
 }
@@ -135,4 +135,11 @@ li{
   .btn button:hover{
     background-color: black;
     color: #F5F5F5;
+  }
+  .dropdown > a {
+    padding-bottom: 10px;
+  }
+  .dropdown > a:hover{
+    border-bottom: 3px solid black;
+
   }
