@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Montserrat,sans-serif;
+    font-family: montserrat,sans-serif;
 }
 
 .bg-color {
@@ -16,7 +16,7 @@ main section aside>span {
 }
 
 main section aside {
-    width: 25%;
+    width: 40%;
     position: relative;
 }
 
@@ -142,4 +142,101 @@ footer .cross .under-line h3 {
 .last {
     padding: 0 15vw;
     margin-bottom: 3vh;
+}
+
+@media (max-width: 1350px) {
+    .navbar .trouble{
+        padding:1.4% 5%;
+    }
+    .navbar .trouble ul li a{
+        font-size: small;
+    }
+    
+    main section .right .books{
+        flex-wrap: wrap;
+    }
+    main section .right .books .book{
+        width:20%;
+    }
+    footer .stay input[type="text"] {
+        width:100%;
+    }
+  }
+@media (max-width:1019px){
+    .navbar .trouble ul li a{
+        font-size:xx-small;
+    }
+    main section aside>div {
+        margin-left: 2vw;
+    }
+    footer .cross {
+        padding: 3vh 10vw;
+        border-bottom: 1px solid #cccccc;
+        margin-bottom: 3vh;
+    }
+    footer .stay h3{
+        font-size:medium;
+    }
+    footer .stay input[type="text"] {
+        height:1.3vh;
+        font-size: small;
+    }
+    
+    footer .stay form i {
+        font-size:x-small;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+}
+@media (max-width:802px){
+
+    main section .right .books .book .pic {
+        height: 32vh;
+        width: 14vw;
+    }
+    main section .right .books .book{
+        flex-grow: 1;
+    }
+    footer .stay p{
+        font-size:12px;
+    }
+    footer .last{
+        padding:0 7vw;
+    }
+}
+@media (max-width:731px){
+    main section .right .books .book{
+        min-width: 175px;
+    }
+    footer .cross .one .pic{
+    height: 40px;
+    width: 130px;  
+    }
+    footer .cross {
+        padding: 3vh 5vw;
+        border-bottom: 1px solid #cccccc;
+        margin-bottom: 3vh;
+    }
+    main section aside>div {
+        margin-left: 1vw;
+    }
+    main section aside .head_ing{
+        font-size:small;
+        
+    }
+    main section aside {
+        width: 50%;
+    }
+    
+    footer .stay {
+        margin-top: 6vh;
+    }
+    footer .stay .child {
+        margin: 1%;
+    }
+    footer .stay .child:nth-child(2) {
+        width: 17%;
+        font-size:x-small;
+    }
 }
