@@ -30,7 +30,7 @@ li{
 } */
 .dropdown:hover .drop{
   border: 1px solid ;
-  top: 42px;
+top: 32px;
   height: fit-content;
   overflow: visible;
 }
@@ -136,3 +136,57 @@ li{
     background-color: black;
     color: #F5F5F5;
   }
+  .dropdown > a {
+    padding-bottom: 10px;
+  }
+  .dropdown > a:hover{
+    border-bottom: 3px solid black;
+
+  }
+
+    /* Style the carousel container */
+    .carousel-container1 {
+      max-width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    /* Style the carousel wrapper */
+    .carousel-wrapper1 {
+      display: flex;
+      transition: transform 0.3s ease;
+    }
+    /* Style the individual carousel items */
+    .carousel-item1 {
+      flex: 0 0 20%; /* 20% width to display 5 items at a time */
+    }
+    /* Style the anchor links */
+    .carousel-link {
+      display: block;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #333;
+      text-decoration: none;
+   
+      padding: 0.5rem;
+      transition: all 0.3s ease;
+    }
+    /* Hover effect for anchor links */
+    .carousel-link:hover {
+    
+      color: #3e434b;
+    }
+
+    .list ul a{
+      font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .7px;
+    color: #3e434b;
+    line-height: 20px;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    transition: all 0.3s;
+    }
+    
+    .list ul a:hover{
+      color: #FF7E00;
+    }
