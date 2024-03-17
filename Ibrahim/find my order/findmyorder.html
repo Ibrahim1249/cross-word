@@ -25,6 +25,27 @@
         body{
             font-family: Montserrat , sans-serif;
         }
+        ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+    div span{
+      font-weight: 700;
+      font-size: 15px; 
+       margin-right: 8px;
+      
+
+    }
+   
     </style>
     <title>Document</title>
 </head>
@@ -33,60 +54,60 @@
       <div class="flex justify-center items-center py-16 text-3xl ">
          <h1>Locate Our Stores</h1>
       </div>
-      <div class="flex h-fit px-8 gap-8 py-8 bg-[#E3E5F5]">
+      <div class="flex h-[40rem] px-16 gap-8 py-8 bg-[#E3E5F5]">
 
         <!-- Left Section -->
-        <div class="w-1/3 p-6 bg-gray-100 overflow-hideen">
+        <div class="w-3/12 p-6 overflow-y-auto bg-[#f2f2fa] rounded border-2">
     
           <!-- Search Box -->
           <div class="mb-6">
-            <label for="search" class="block text-gray-700 font-bold mb-2">Search</label>
+            <label for="search" class="block text-[#212121] font-semibold text-xl leading-[35px] mb-4 w-[80%]">Kindly enter your location to find the stores closest to you</label>
             <input type="text" id="search" name="search" placeholder="Search..." class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
           </div>
     
           <!-- Area Details -->
-          <div class="mb-6">
-            <h2 class="text-lg font-semibold mb-2">Area Name</h2>
-            <p class="text-sm text-gray-600 mb-1">Address: Street Name, City, Country</p>
-            <p class="text-sm text-gray-600 mb-1">Phone: +123456789</p>
-            <p class="text-sm text-gray-600">Hours: 9:00 AM - 5:00 PM</p>
+          <div class="mb-6 border rounded transition-all duration-300 cursor-pointer p-2 hover:bg-white">
+            <h2 class="text-xl font-semibold mb-4">VR Mall Nagpur</h2>
+            <p class="text-sm text-gray-600 mb-1"><span>Address:</span> Crossword Bookstore, SF 01, 2nd Floor, Medical Chowk Road, Rambaug Layout, Nagpur, 440003</p>
+            <p class="text-sm text-gray-600 mb-1"><span>Phone:</span>  7020922400</p>
+            <p class="text-sm text-gray-600"><span>Hours:</span>  9:00 AM - 5:00 PM</p>
           </div>
-          <div class="mb-6">
-            <h2 class="text-lg font-semibold mb-2">Area Name</h2>
-            <p class="text-sm text-gray-600 mb-1">Address: Street Name, City, Country</p>
-            <p class="text-sm text-gray-600 mb-1">Phone: +123456789</p>
-            <p class="text-sm text-gray-600">Hours: 9:00 AM - 5:00 PM</p>
+          <div class="mb-6 border  rounded transition-all duration-300 cursor-pointer p-2 hover:bg-white">
+            <h2 class="text-xl font-semibold mb-4 ">Jaika Building - Nagpur</h2>
+            <p class="text-sm text-gray-600 mb-1"><span>Address:</span> Crossword Bookstore,Unit No. T-19 & T-20, 3rd Floor, DB City Mall, Area Hills Opp. MP Nagar, Zone-1, Bhopal-462011</p>
+            <p class="text-sm text-gray-600 mb-1"><span>Phone:</span>  +123456789</p>
+            <p class="text-sm text-gray-600"><span>Hours:</span>  9:00 AM - 3:00 PM</p>
           </div>
-          <div class="mb-6">
-            <h2 class="text-lg font-semibold mb-2">Area Name</h2>
-            <p class="text-sm text-gray-600 mb-1">Address: Street Name, City, Country</p>
-            <p class="text-sm text-gray-600 mb-1">Phone: +123456789</p>
-            <p class="text-sm text-gray-600">Hours: 9:00 AM - 5:00 PM</p>
+          <div class="mb-6 border  rounded transition-all duration-300 cursor-pointer p-2 hover:bg-white">
+            <h2 class="text-xl font-semibold mb-4">DB Mall - Bhopal</h2>
+            <p class="text-sm text-gray-600 mb-1"><span>Address:</span> Crossword Bookstore,Unit No. T-19 & T-20, 3rd Floor, DB City Mall, Area Hills Opp. MP Nagar, Zone-1, Bhopal-462011</p>
+            <p class="text-sm text-gray-600 mb-1"><span>Phone:</span>  8269402245</p>
+            <p class="text-sm text-gray-600"><span>Hours:</span>  9:00 AM - 4:00 PM</p>
           </div>
-          <div class="mb-6">
-            <h2 class="text-lg font-semibold mb-2">Area Name</h2>
-            <p class="text-sm text-gray-600 mb-1">Address: Street Name, City, Country</p>
-            <p class="text-sm text-gray-600 mb-1">Phone: +123456789</p>
-            <p class="text-sm text-gray-600">Hours: 9:00 AM - 5:00 PM</p>
+          <div class="mb-6 border  rounded transition-all duration-300 cursor-pointer p-2 hover:bg-white">
+            <h2 class="text-xl font-semibold mb-4">Lulu Hyderabad</h2>
+            <p class="text-sm text-gray-600 mb-1"><span>Address:</span> Crossword Booksotre,Unit No. REST 06, Fourth Floor, Lulu Mall, Kukatpally, Hyderabad-500072, Telangana</p>
+            <p class="text-sm text-gray-600 mb-1"><span>Phone:</span>  9848175849</p>
+            <p class="text-sm text-gray-600"><span>Hours:</span>  10:00 AM - 6:00 PM</p>
           </div>
-          <div class="mb-6">
-            <h2 class="text-lg font-semibold mb-2">Area Name</h2>
-            <p class="text-sm text-gray-600 mb-1">Address: Street Name, City, Country</p>
-            <p class="text-sm text-gray-600 mb-1">Phone: +123456789</p>
-            <p class="text-sm text-gray-600">Hours: 9:00 AM - 5:00 PM</p>
+          <div class="mb-6 border  rounded transition-all duration-300 cursor-pointer p-2 hover:bg-white">
+            <h2 class="text-xl font-semibold mb-4">Forum Sujana Mall</h2>
+            <p class="text-sm text-gray-600 mb-1"><span>Address:</span> Crossword Bookstore, Forum Sujana Mall, 3rd Floor  Unit No 319-320 Plot no S.16, survey no 1009,KPHB Phase VI, Kukatpally,Hyderabad-500072</p>
+            <p class="text-sm text-gray-600 mb-1"><span>Phone:</span>  9700591764</p>
+            <p class="text-sm text-gray-600"><span>Hours:</span>  9:00 AM - 4:00 PM</p>
           </div>
-          <div class="mb-6">
-            <h2 class="text-lg font-semibold mb-2">Area Name</h2>
-            <p class="text-sm text-gray-600 mb-1">Address: Street Name, City, Country</p>
-            <p class="text-sm text-gray-600 mb-1">Phone: +123456789</p>
-            <p class="text-sm text-gray-600">Hours: 9:00 AM - 5:00 PM</p>
+          <div class="mb-6 border  rounded transition-all duration-300 cursor-pointer p-2 hover:bg-white">
+            <h2 class="text-xl font-semibold mb-4">Hyd L&T Punchagutta</h2>
+            <p class="text-sm text-gray-600 mb-1"><span>Address:</span> Crossword Bookstore,Next Galleria Mall, Level 3, Shop no 27 &amp; 28, Block E, Panjagutta - 500082</p>
+            <p class="text-sm text-gray-600 mb-1"><span>Phone:</span>  8142840160</p>
+            <p class="text-sm text-gray-600"><span>Hours:</span>  11:00 AM - 10:00 PM</p>
           </div>
     
         </div>
 
-        <div class="w-2/3 ">
+        <div class="w-9/12 ">
             <!-- Google Map iframe -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994433.3202274573!2d73.49973472594265!3d20.43289153377425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9b4256d8ec5%3A0x40a425b568417b80!2sIndia!5e0!3m2!1sen!2sin!4v1647702988009!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281527.263685085!2d72.10809512517388!3d20.75721265177788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1710661038766!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full"></iframe>
           </div>
     </div>
   </div>

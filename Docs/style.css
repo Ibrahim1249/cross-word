@@ -190,3 +190,65 @@ top: 32px;
     .list ul a:hover{
       color: #FF7E00;
     }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    @media screen and (max-width:1000px){
+      .card-container1{
+         display: none;
+       }
+     }
+     @media screen and (max-width:900px){
+      .card-container2{
+         display: none;
+       }
+     }
+   @media screen and (max-width:800px){
+    .card-container2{
+       display: none;
+     }
+     .card-container3{
+      display: none;
+    }
+   }
+    @media screen and (max-width:550px){
+
+      .reponsive{
+        display: none;
+      }
+      .container-reponsive{
+        display: block;
+      }
+      .container-repo{
+        max-width: 100%;
+        max-height: 100%;
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+      .cards-container3{
+         display: none;
+      }
+      .card-container4{
+        display: none;
+      }
+   
+    }
+    
+
+    @media screen and (max-width:400px){
+      .padding-responsive{
+        padding: 0;
+      }
+    }
