@@ -8,16 +8,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet"
-  />
   <link rel="stylesheet" href="TOP50style.css">
   <title>Document</title>
 </head>
 
 <body>
-  <div class="navbar">
+  <div class="navbar overflow-x-hidden">
     <nav class="px-48 py-1 bg-black">
       <ul class="flex justify-end text-white text-sm relative">
         <li>
@@ -47,13 +43,12 @@
       </div>
     </nav>
 
-    <nav class="px-56 py-4 relative">
-      <ul class="flex justify-between text-black font-bold">
+    <nav class="trouble px-32  py-4 relative overflow-x-hidden">
+      <ul class="flex w-full justify-between text-black font-bold">
         <li><a href="" class="dropdown">NEW & NOTEWORTHY</a>
         </li>
         <li><a href="">TOP 50</a>
         </li>
-
         <li><a href="">CROSSWORD RECOMMENDS</a></li>
         <li><a href="">BOOKS</a></li>
         <li><a href="">KIDS BOOKS</a></li>
@@ -70,37 +65,46 @@
     <section class="flex">
       <aside class="">
         <span class="">FILTERS</span>
-        <div class="Category border-slate-700 border-2 w-8/12 p-2 mb-3.5">
-          <p class="flex justify-between"><span>Category</span><i class="fa-solid fa-angle-up font-extralight"></i></p>
+        <div class="Category head border-slate-700 border-2 w-8/12 p-2 mb-3.5">
+          <p class="flex justify-between"><span class="head_ing font-semibold mb-2">Category</span><i
+              class="fa-solid fa-angle-up font-extralight"></i></p>
           <input type="checkbox">
           <label for="vehicle1" class="mx-0.5 mb-2.5"> Books </label><span class="text-gray-500">(223)</span>
         </div>
         <div class="Sub-category border-slate-700 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span>Sub Category</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Sub Category</span><i
+              class="fa-solid fa-angle-down"></i></p>
         </div>
         <div class="Genre border-slate-700 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span>Genre</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Genre</span><i
+              class="fa-solid fa-angle-down"></i>
+          </p>
         </div>
         <div class="Format border-slate-700 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span>Format</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Format</span><i
+              class="fa-solid fa-angle-down"></i></p>
         </div>
         <div class="Author border-slate-700 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span>Author</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Author</span><i
+              class="fa-solid fa-angle-down"></i></p>
         </div>
         <div class="Language border-slate-700 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span>Language</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Language</span><i
+              class="fa-solid fa-angle-down"></i></p>
         </div>
         <div class="Price border-slate-700 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span>Price</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Price</span><i
+              class="fa-solid fa-angle-down"></i>
+          </p>
         </div>
       </aside>
       <div class="right">
         <div class="sort border-slate-700 border-2 w-52 p-2 mb-2.5">
-          <p class="flex justify-between"><span><span class="font-extrabold">Sort By : </span> Relevance</span><i
+          <p class="flex justify-between"><span><span class="text-base font-black">Sort By : </span> Relevance</span><i
               class="fa-solid fa-angle-down"></i></p>
         </div>
-        <div class="books flex pt-3">
-          <div class="book grow m-5 flex flex-col justify-center items-center">
+        <div class="books flex flex-wrap pt-3 ml-2">
+          <div class="book grow m-2 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full"
                 src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/getimage_05d33944-4bc0-4d88-9fa3-f48ff76c46f3_360x.jpg?v=1678858154"
@@ -154,8 +158,7 @@
               <i class="fa-regular fa-heart"></i>
             </div>
           </div>
-        </div>
-        <div class="books flex pt-3">
+
           <div class="book grow m-5 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full"
@@ -205,6 +208,20 @@
             <div class="name mt-4"><a href="">The Book Thief</a></div>
             <div class="author"><a href="">Markus Zusak</a></div>
             <div class="price mt-4 text-lg"><a href="">₹ 499</a></div>
+            <div class="bag w-full flex justify-center items-center mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="book grow m-2 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/81Ry4nT_-lL_6c4334ee-6bff-40e6-be07-c7d4d5f7c612_360x.jpg?v=1690880922"
+                alt="">
+            </div>
+            <div class="name mt-4"><a href="">Diary Of A Wimpy Kid:No Br...</a></div>
+            <div class="author"><a href="">Jeff Kinney</a></div>
+            <div class="price mt-4 text-lg"><a href="">₹ 599</a></div>
             <div class="bag w-full flex justify-center items-center mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
