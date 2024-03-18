@@ -1,0 +1,356 @@
+.bg-color{
+    background-color: #FFE619;
+}
+.bg-color-1{
+    background-color: #32CACE;
+}
+.bg-color-2{
+    background-color: #A3B7F0;
+}
+.color{
+    color: #3e434b;
+}
+body{
+    font-family: Montserrat , sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.drop{
+
+    height: 0;
+    border: 0;
+    transition: all 300ms;
+    overflow: hidden;
+}
+/* .dropdown{
+  height: 1.5rem;
+
+} */
+.dropdown:hover .drop{
+  border: 1px solid ;
+top: 32px;
+  height: fit-content;
+  overflow: visible;
+}
+/* .dropdown:hover {
+    height: fit-content;
+} */
+
+/*.truck-color{
+    background-color:aqua;
+}
+
+
+/* .carousal{
+    display: grid;
+    grid-template-columns: repeat(5,100%);
+    
+} */
+
+/* .section-wrapper {
+
+    overflow-y: hidden;
+ 
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-columns:20%;
+    grid-auto-flow: column;
+  }
+   */
+.section-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+ /* .section-wrapper::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 5px;
+  } */
+
+  .carousel-container {
+    overflow: hidden;
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+  }
+  .carousel-content {
+    display: flex;
+    animation: slide-animation 20s infinite linear alternate;
+     /* Adjust the duration as needed */
+  }
+  .carousel-item {
+    width: 100%;
+    /* height: 100vh; */
+    flex-shrink: 0;
+  }
+
+  /* Keyframes for slide animation */
+  @keyframes slide-animation {
+    0%, 20% { transform: translateX(0); }
+    25%, 45% { transform: translateX(-100%); }
+    50%, 70% { transform: translateX(-200%); }
+    75%, 95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+  }
+  #footer-1{
+    position: relative;
+  }
+
+  #footer-1::after{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    top: 0;
+  }
+.footer-content h3{
+    border-bottom: 1px solid #cccccc;
+}
+  .footer-content li{
+     margin-top: 1px;
+     margin-bottom: 1px;
+    font-family: Montserrat;
+    letter-spacing: .6px;
+    color: #3e434b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px
+  }
+  .footer-content li a:hover{
+     border-bottom: 1px solid #cccccc;
+  }
+
+  .btn button{
+    text-align: center;
+    font: 500 10px / 13px Montserrat;
+    letter-spacing: .5px;
+    color: #000;
+    text-transform: uppercase;
+    width: 104px !important;
+    height: 30px;
+    border: 1px solid;
+    transition: all 0.3s;
+    
+  }
+  .btn button:hover{
+    background-color: black;
+    color: #F5F5F5;
+  }
+  .dropdown > a {
+    padding-bottom: 10px;
+  }
+  .dropdown > a:hover{
+    border-bottom: 3px solid black;
+
+  }
+
+  /*main section started*/
+  main section aside>span {
+    position: absolute;
+    top: -5vh;
+    left: 6.6vw;
+}
+
+main section aside {
+    width: 25%;
+    position: relative;
+}
+
+main section aside>div {
+    margin-left: 6.5vw;
+}
+
+main section .right {
+    position: relative;
+}
+
+main section .right .sort {
+    position: absolute;
+    top: -7vh;
+    right: 2vw;
+}
+
+main section .right .items .item .pic {
+    height: 28vh;
+    width: 14vw;
+}
+
+main section .items .author a {
+    color: #1f4f95;
+}
+
+main section .bag p {
+    font-size: 10px;
+    border: solid black 1px;
+    margin-left: 8%;
+    padding: 3.5% 8%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main section .bag i {
+    padding-left: 6%;
+    cursor: pointer;
+}
+.py-8 {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+}
+.hoverable-text a {
+    font-size: 12px; /* Adjust this value to change the font size */
+  }
+  .home-img {
+    width: 8px; /* Adjust this value to change the width */
+    height: auto; /* Keep the aspect ratio */
+  }
+  .hidden {
+    display: none;
+}
+main section aside>span {
+    position: absolute;
+    top: -5vh;
+    left: 6.6vw;
+}
+
+main section aside {
+    width: 40%;
+    position: relative;
+}
+
+main section aside>div {
+    margin-left: 6.5vw;
+}
+
+main section .right {
+    position: relative;
+}
+
+main section .right .sort {
+    position: absolute;
+    top: -7vh;
+    right: 2vw;
+}
+
+main section .right .books .book .pic {
+    height: 42vh;
+    width: 15vw;
+}
+
+main section .books .author a {
+    color: #1f4f95;
+}
+
+main section .bag p {
+    font-size: 10px;
+    border: solid black 1px;
+    margin-left: 8%;
+    padding: 3.5% 8%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main section .bag i {
+    padding-left: 6%;
+    cursor: pointer;
+}
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.filter-heading {
+    font-weight: bold;
+}
+
+.Category {
+    width: 100%;
+    max-width: 400px; /* Set maximum width to prevent it from becoming too wide */
+}
+
+.category-list {
+    display: none; /* Initially hide the category lists */
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.category-list li {
+    margin-top: 5px;
+}
+
+.category-list li label {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .Category {
+        width: 100%; /* Reset width for regular screens */
+    }
+
+    .category-list {
+        display: block; /* Show category lists for larger screens */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Category {
+        max-width: 400px; /* Set maximum width for smaller screens */
+    }
+
+    .filters {
+        display: none; /* Hide entire filters section for smaller screens */
+    }
+}
+
+
+/* Regular styles for sort section */
+.sort {
+    position: relative; /* Ensure sort section stays in the document flow */
+    z-index: 1; /* Ensure the sort section is on top of other elements */
+}
+
+
+/* Regular styles for sorting options */
+.sort {
+    display: block;
+}
+
+/* Hide sorting options for smaller screens */
+@media screen and (max-width: 768px) {
+    .sort {
+        display: none;
+    }
+}
+
+/* Regular styles for breadcrumb navigation */
+#breadcrumbContainer {
+    display: flex;
+}
+
+/* Hide breadcrumb navigation for smaller screens */
+@media screen and (max-width: 768px) {
+    #breadcrumbContainer {
+        display: none;
+    }
+}
+
+/* Position the container relatively to contain absolutely positioned elements */
+.pic {
+    position: relative;
+}
+
+/* Hide the backside image by default */
+.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* Show the backside image when the front image is hovered */
+.pic:hover .back-image {
+    display: block;
+}
