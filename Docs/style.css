@@ -101,6 +101,9 @@ body{
     li{
       list-style: none;
   }
+  .logo{
+    cursor: pointer;;
+  }
   
   .drop{
   
