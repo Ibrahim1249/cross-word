@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss"></style>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="STATIONARYstyles.css">
+  <link rel="stylesheet" href="bookstyles.css">
   <title>Document</title>
 </head>
 
 <body>
+
   <div class="navbar sticky top-0 z-10">
     <nav class="2xl:px-56 xl:px-40 lg:px-16 px-0 py-1 bg-black reponsive">
       <ul class="flex justify-end text-white text-sm relative">
@@ -88,7 +90,7 @@
       </div>
     </nav>
 
-    <nav class="2xl:px-56 xl:px-40 lg:px-2 lg:block hidden bg-white py-4">
+    <nav class="2xl:px-56 xl:px-40 lg:px-2 lg:block hidden py-4 bg-white">
       <ul class="flex justify-between text-white relative">
         <li class="dropdown">
           <a
@@ -249,7 +251,7 @@
         <li class="dropdown">
           <a
             href=""
-            class="text-xs leading-[18px] font-bold tracking-[1.04px] uppercase text-[#000]"
+            class="text-xs leading-[18px] font-bold tracking-[1.04px] uppercase text-[#FF7E00]"
             >BOOKS</a
           >
           <div
@@ -698,7 +700,7 @@
         <li class="dropdown">
           <a
             href=""
-            class="text-xs leading-[18px] font-bold tracking-[1.04px] uppercase text-[#FF7E00]"
+            class="text-xs leading-[18px] font-bold tracking-[1.04px] uppercase text-[#000]"
             >STATIONERY & GIFTS</a
           >
 
@@ -829,32 +831,53 @@
       </ul>
     </nav>
 
-  </div> 
+  </div>
 
   <main>
-    
-    <p class="text-center text-sm pt-8"><a href="">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="">Stationary & Gifts</a></p>
-    <p class="text-center text-3xl pb-8 pt-4">Stationery & Gifts</p>
+    <p class="text-center text-sm pt-8"><a href="">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="">Books</a></p>
+    <p class="text-center text-3xl pt-4 pb-8">Books</p>
     <section class="flex">
       <aside class="lg:block hidden">
         <span class="">FILTERS</span>
+        
         <div class="Category border-slate-200 border-2 w-8/12 p-2 mb-3.5">
-          <p class="flex justify-between"><span class="head_ing font-semibold mb-2">Category</span><i class="fa-solid fa-angle-up "></i></p>
-          <input type="checkbox">
-          <label for="vehicle1" class="mx-0.5 mb-2.5 text-sm"> Stationanry & Gifts </label><span
-            class="text-gray-500 text-sm">(948)</span>
-          <br>
-          <input type="checkbox">
-          <label for="vehicle1" class="mx-0.5 mb-2.5 text-sm"> Books </label><span class="text-gray-500 text-sm">(31)</span>
+            <p class="flex justify-between"><span class="head_ing font-semibold mb-2">Category</span><i class="fa-solid fa-angle-up "></i></p>
+            <input type="checkbox">
+            <label for="vehicle1" class="mx-0.5 mb-2.5 text-sm"> Books </label><span
+              class="text-gray-500 text-sm">(10316)</span>
+            <br>
+            <input type="checkbox">
+            <label for="vehicle1" class="mx-0.5 mb-2.5 text-sm"> Stationary & Gifts </label><span class="text-gray-500 text-sm">(31)</span>
+          </div>
+        <div class="Sub-category border-slate-200 border-2 w-8/12 p-2 mb-2.5">
+          <p class="flex justify-between"><span class="head_ing font-semibold">Sub Category</span><i
+              class="fa-solid fa-angle-down"></i></p>
         </div>
         <div class="Genre border-slate-200 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span class="head_ing font-semibold">Genre</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Genre</span><i
+              class="fa-solid fa-angle-down"></i>
+          </p>
         </div>
-        <div class="Product border-slate-200 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span class="head_ing font-semibold">Product Type</span><i class="fa-solid fa-angle-down"></i></p>
+        <div class="Format border-slate-200 border-2 w-8/12 p-2 mb-2.5">
+          <p class="flex justify-between"><span class="head_ing font-semibold">Format</span><i
+              class="fa-solid fa-angle-down"></i></p>
+        </div>
+        <div class="Author border-slate-200 border-2 w-8/12 p-2 mb-2.5">
+            <p class="flex justify-between"><span class="head_ing font-semibold">Product Type</span><i
+                class="fa-solid fa-angle-down"></i></p>
+          </div>
+        <div class="Author border-slate-200 border-2 w-8/12 p-2 mb-2.5">
+          <p class="flex justify-between"><span class="head_ing font-semibold">Author</span><i
+              class="fa-solid fa-angle-down"></i></p>
+        </div>
+        <div class="Language border-slate-200 border-2 w-8/12 p-2 mb-2.5">
+          <p class="flex justify-between"><span class="head_ing font-semibold">Language</span><i
+              class="fa-solid fa-angle-down"></i></p>
         </div>
         <div class="Price border-slate-200 border-2 w-8/12 p-2 mb-2.5">
-          <p class="flex justify-between"><span class="head_ing font-semibold">Price</span><i class="fa-solid fa-angle-down"></i></p>
+          <p class="flex justify-between"><span class="head_ing font-semibold">Price</span><i
+              class="fa-solid fa-angle-down"></i>
+          </p>
         </div>
       </aside>
       <div class="right">
@@ -866,11 +889,12 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full"
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/ST0061798_360x.jpg?v=1701946424"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/71JV1bIm2IL_360x.jpg?v=1686840105"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Milan-Eraser+Sharpener Caps...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹299</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Beyond The Story: 10-Year Re...</a></div>
+            <div class="author"><a href="">BTS and Myeongseok Kang</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹2249 </a><span class="specialll"> ₹2499 </span><span class="greennn">&nbsp; (10%) </span></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -879,11 +903,12 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/1765729120_02_360x.jpg?v=1697085629"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/9781847941831_360x.jpg?v=1680197451"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Milan blue ink P1 pens Camale...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹199</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Atomic Habits: The Life-Cha...</a></div>
+            <div class="author"><a href="">James Clear</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹799</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -892,9 +917,37 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/8052461965918_360x.jpg?v=1701175605" alt="">
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/9789387282247_1_360x.jpg?v=1672832048" alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Legami-3 Pcs Erasable Pen Re...</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Gita Wisdom Through Quotes</a></div>
+            <div class="author"><a href="">Chaitanya Charan</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹349</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://www.crossword.in/cdn/shop/products/9789390166268_1_460x@2x.jpg?v=1663936263"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">The Psychology Of Money</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹399</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/81BE7eeKzAL_360x.jpg?v=1686641274"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Rich Dad Poor Dad</a></div>
+            <div class="author"><a href="">Robert T. Kiyosaki</a></div>
             <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹399</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
@@ -904,24 +957,12 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/18502920SN_03_687d9815-66f3-4075-b109-af2d8254f744_360x.jpg?v=1707285271"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/getimage_c95532ea-237d-426a-8f07-b1e5c20336c1_360x.jpg?v=1678842264"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Milan COMPACT Sunset mech...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹249</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full"
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/176568920SN_06_360x.jpg?v=1697087186"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Milan COMPACT Sunset Pen, ...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹199</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Verity</a></div>
+            <div class="author"><a href="">Colleen Hoover</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹399</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -930,11 +971,11 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/81GzQVFwE-L._SL1500_360x.jpg?v=1691062640"
-                alt="">
+                src="https://www.crossword.in/cdn/shop/products/81s0B6NYXML_460x@2x.jpg?v=1680684442" alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Factor Note 300 GSM A3 Wate...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹220</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">It Ends With Us</a></div>
+            <div class="author"><a href="">Colleen Hoover</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹499</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -943,9 +984,26 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/BookmarkSaraswatiJi_600x_e71f7742-b860-45e0-95cf-c14447d54e78_360x.jpg?v=1673841885" alt="">
+                src="https://www.crossword.in/cdn/shop/products/81kFTkk_8L_460x@2x.jpg?v=1677476872"
+                alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Bookmark Ornament Saraswati</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Never Never</a></div>
+            <div class="author"><a href="">Colleen Hoover
+                </a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹499</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/9780141346816_360x.jpg?v=1680182029"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Percy Jackson And The Titan's Curse</a></div>
+            <div class="author"><a href="">Rick Riordan</a></div>
             <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹450</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
@@ -955,10 +1013,94 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/91ep0Q1AIrL._SX569_360x.jpg?v=1673688479"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/getimage_50e8f256-411d-4947-9ba6-9ae9339d8366_360x.jpg?v=1678851214"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">MIRADA UNICORN WITH HOR...</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Energize Your Mind</a></div>
+            <div class="author"><a href="">Gaur Gopal Das</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹299</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://www.crossword.in/cdn/shop/files/LessonsinChemistry_1_460x@2x.jpg?v=1686726838"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Lessons In Chemistry</a></div>
+            <div class="author"><a href=""></a>Bonnie Garmus</div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹550</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://www.crossword.in/cdn/shop/files/WhatsAppImage2023-04-28at5.34.54PM_460x@2x.jpg?v=1682683641"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Get Epic Shit Done</a></div>
+            <div class="author"><a href="">Ankur Warikoo</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹599</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/9781784751111.jpg.a83748c18e.999xx_360x.jpg?v=1690983725"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Fool Me Once</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹550</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://www.crossword.in/cdn/shop/products/41ptmgEWP2L_460x@2x.jpg?v=1680671494"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">What Every Indian Sh...</a></div>
+            <div class="author"><a href="">Vinod Pottayil</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹499</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/getimage_ca6892c2-c64c-4d03-8454-803efd2aaaf2_360x.jpg?v=1678852737"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">The Hidden Hindu</a></div>
+            <div class="author"><a href="">Akshat Gupta</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹250</a></div>
+            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
+              <p>ADD TO BAG</p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
+            <div class="pic">
+              <img class="w-full h-full "
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/81FummIc2eL_360x.jpg?v=1680672986"
+                alt="">
+            </div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">It Starts With Us</a></div>
+            <div class="author"><a href="">Colleen Hoover</a></div>
             <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹699</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
@@ -968,11 +1110,12 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/61BpioviYUL._SL1381_360x.webp?v=1672901623"
+                src="https://www.crossword.in/cdn/shop/files/81Gnz1jaqhL_460x@2x.jpg?v=1691485437"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">OOLY Note Pals Sticky Not...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹269</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">World's Best Girlfriend</a></div>
+            <div class="author"><a href="">Durjoy Datta</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹199</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -981,11 +1124,11 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/IMG_4225_600x_3a8d013a-0465-42fb-9069-603b7ea46e89_360x.jpg?v=1672734093"
+                src="https://www.crossword.in/cdn/shop/products/9789354893896.jpg.94a48c83c7.999xx_360x@2x.jpg?v=1679725493"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Bookmark Ornament Gan...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹490</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">The Almanack Of Naval Ravikant</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹ 399</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -994,11 +1137,12 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/51IYgMJvKZL._AC_SX679_360x.jpg?v=1698921405"
+                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/81j9EB_PpjL_360x.jpg?v=1687254325"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Legami-Erasable Gel Pen -...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹299</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Love Theoretically</a></div>
+            <div class="author"><a href="">Ali Hazelwood</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹ 499</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -1007,115 +1151,12 @@
           <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
             <div class="pic">
               <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/51kh4q8s1pL._AC_SX679_360x.jpg?v=1698914757"
+                src="https://www.crossword.in/cdn/shop/products/rulesoflove083022.jpg.70547c0238.999xx_460x@2x.jpg?v=1680608860"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Legami-Erasable Gel Pen -...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹299</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/SketchO-WireOBoundA4POpen_360x.jpg?v=1690280162"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Anupam SketchO Drawing B...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹460</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/SketchO-WireOBoundSQ_360x.jpg?v=1690280116"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Anupam SketchO Drawing B...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹325</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/WATERCOLOURPENCILINSIDE_360x.png?v=1685946226"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Doms Water Colour 24 Pencil</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹350</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/51H2NJN9B-L._SX679_360x.jpg?v=1685621096"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Parker Jotter Standard CT Ba...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹300</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/files/qips_00036_2_360x.jpg?v=1685528737"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">QIPS Unicorn Hardcase EVA</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹795</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/Life-of-your-dream-Undated-planner-cover_1100x_0712e58a-bfec-41c9-aa21-f4b6b71ef612_360x.jpg?v=1681556771"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Life Of Your Dreams - Annual...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹1,800</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/Happy-checklist-1_1100x_e590bb41-8e1d-4dba-97eb-f19ebe4850e0_360x.jpg?v=1681554103"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Happy Checklist</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹300</a></div>
-            <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
-              <p>ADD TO BAG</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-          </div>
-          <div class="item grow xl:m-5 m-0 flex flex-col justify-center items-center">
-            <div class="pic">
-              <img class="w-full h-full "
-                src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/sharpie-s-gel-pen-05mm-pack-of-4gel-penssharpiescooboo21162008904379403238-337035_1800x1800_1b2f9d99-b83a-437e-ace4-230cf94a7f64_360x.jpg?v=1681370730"
-                alt="">
-            </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Sharpie S. Gel Pen 0.5mm-P...</a></div>
-            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹599</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">8 Rules Of Love</a></div>
+            <div class="author"><a href="">Haruki Murakami</a></div>
+            <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹499</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
               <i class="fa-regular fa-heart"></i>
@@ -1159,7 +1200,7 @@
             follow us
           </h2>
           <div class="flex gap-8 text-3xl justify-center">
-            <a href=""><i class="fa-brands fa-facebook text-blue-700"></i></a>
+            <a href=""><i class="fa-brands fa-facebook text-blue-200"></i></a>
             <a href="">
               <i
                 class="fa-brands fa-square-twitter text-blue-300 rounded-lg"
@@ -1230,9 +1271,9 @@
             <li><a href="">The Write Place</a></li>
           </div>
 
-          <div class="footer-content lg:w-fit w-full md:xl:mt-0 lg:mt-3 mt-2 xl:mt-8 ">
+          <div class="footer-content lg:w-fit w-full md:xl:mt-0 lg:mt-3 mt-2 xl:mt-8 lg:mt-3 mt-2">
             <h3
-              class="lg:font-semi-bold font-bold text-lg  tracking-wider py-2 leading-5"
+              class="lg:font-semi-bold font-bold text-lg leading-6 tracking-wider py-2 leading-5"
             >
               Useful links
             </h3>
@@ -1246,9 +1287,9 @@
             <li><a href="">Crossword Gift Card T&C</a></li>
           </div>
 
-          <div class="footer-content lg:w-fit w-full md:xl:mt-0 lg:mt-3 mt-2 xl:mt-8 ">
+          <div class="footer-content lg:w-fit w-full md:xl:mt-0 lg:mt-3 mt-2 xl:mt-8 lg:mt-3 mt-2">
             <h3
-              class="lg:font-semi-bold font-bold text-lg  tracking-wider py-2 leading-5"
+              class="lg:font-semi-bold font-bold text-lg leading-6 tracking-wider py-2 leading-5"
             >
               About us
             </h3>

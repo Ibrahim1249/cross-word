@@ -17,6 +17,69 @@
 .color{
     color: #3e434b;
 }
+main > p a:hover{
+    color: #FF7E00;
+  }
+
+main section aside>span {
+    position: absolute;
+    top: -5vh;
+    left: 6.6vw;
+}
+
+main section aside {
+    width: 100%;
+    position: relative;
+}
+
+main section aside>div {
+    margin-left: 6.5vw;
+}
+
+main section .right {
+    position: relative;
+}
+
+main section .right .sort {
+    position: absolute;
+    top: -7vh;
+    right: 2vw;
+}
+main section .right .specialll{
+    text-decoration: line-through;
+    color:rgb(150, 149, 149);
+}
+main section .right .greennn{
+    color: green;
+}
+main section .right .name{
+    font-size:14px;
+}
+main section .right .author{
+    font-size:12px;
+}
+main section .right .items .item .pic {
+    height: 38vh;
+    width: 15vw;
+}
+
+main section .items .author a {
+    color: #1f4f95;
+}
+
+main section .bag p {
+    font-size: 10px;
+    border: solid black 1px;
+    margin-left: 8%;
+    padding: 3.5% 8%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main section .bag i {
+    padding-left: 6%;
+    cursor: pointer;
+}
 
 li{
     list-style: none;
@@ -111,59 +174,6 @@ top: 32px;
     color: #FF7E00;
   }
 
-  main > p a:hover{
-    color: #FF7E00;
-  }
-
-main section aside>span {
-    position: absolute;
-    top: -5vh;
-    left: 6.6vw;
-}
-
-main section aside {
-    width: 100%;
-    position: relative;
-}
-
-main section aside>div {
-    margin-left: 6.5vw;
-}
-
-main section .right {
-    position: relative;
-}
-
-main section .right .sort {
-    position: absolute;
-    top: -7vh;
-    right: 2vw;
-}
-
-main section .right .items .item .pic {
-    height: 33vh;
-    width: 15vw;
-}
-
-main section .items .author a {
-    color: #1f4f95;
-}
-
-main section .bag p {
-    font-size: 10px;
-    border: solid black 1px;
-    margin-left: 8%;
-    padding: 3.5% 8%;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-main section .bag i {
-    padding-left: 6%;
-    cursor: pointer;
-}
-
-
 
 @media (max-width:1279px){
     main section .right .items .item{
@@ -224,12 +234,6 @@ main section .bag i {
     main section .right .items .item .pic {
         height: 33vh;
         width: 30vw;
-    }
-}
-@media (max-width:480px){
-    main section .right .items .item .pic {
-        height: 33vh;
-        width: 34vw;
     }
 }
 @media (max-width:480px){
