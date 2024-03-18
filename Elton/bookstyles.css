@@ -5,9 +5,21 @@
     font-family: montserrat,sans-serif;
 }
 
-.bg-color {
+.bg-color{
     background-color: #FFE619;
 }
+.bg-color-1{
+    background-color: #32CACE;
+}
+.bg-color-2{
+    background-color: #A3B7F0;
+}
+.color{
+    color: #3e434b;
+}
+main > p a:hover{
+    color: #FF7E00;
+  }
 
 main section aside>span {
     position: absolute;
@@ -40,9 +52,14 @@ main section .right .specialll{
 main section .right .greennn{
     color: green;
 }
-
+main section .right .name{
+    font-size:14px;
+}
+main section .right .author{
+    font-size:12px;
+}
 main section .right .items .item .pic {
-    height: 33vh;
+    height: 38vh;
     width: 15vw;
 }
 

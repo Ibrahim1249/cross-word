@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <div class="navbar sticky top-0 z-10">
     <nav class="2xl:px-56 xl:px-40 lg:px-16 px-0 py-1 bg-black reponsive">
       <ul class="flex justify-end text-white text-sm relative">
@@ -39,7 +40,7 @@
     <nav
       class="bg-color 2xl:px-56 xl:px-40 lg:px-16 md:px-0 py-5 flex lg:justify-between justify-evenly sm:gap-4 items-center"
     >
-      <div class="lg:hidden block md:xl:m-0 m-0 sm:mr-4">
+      <div class="lg:hidden block md:m-0 sm:mr-4">
         <svg viewBox="0 0 24 24" class="h-6 w-6 stroke-slate-900">
           <path
             d="M3.75 12h16.5M3.75 6.75h16.5M3.75 17.25h16.5"
@@ -65,7 +66,7 @@
           ></i>
         </button>
       </div>
-      <div class="text-2xl md:xl:m-0 m-0 ml-auto">
+      <div class="text-2xl md:m-0 ml-auto">
         <i
           class="fa-solid fa-magnifying-glass lg:px-2 px-1 lg:mx-2 mx-1 cursor-pointer md:hidden inline" 
         ></i>
@@ -89,7 +90,7 @@
       </div>
     </nav>
 
-    <nav class="2xl:px-56 xl:px-40 lg:px-2 lg:block hidden py-4">
+    <nav class="2xl:px-56 xl:px-40 lg:px-2 lg:block hidden py-4 bg-white">
       <ul class="flex justify-between text-white relative">
         <li class="dropdown">
           <a
@@ -250,7 +251,7 @@
         <li class="dropdown">
           <a
             href=""
-            class="text-xs leading-[18px] font-bold tracking-[1.04px] uppercase text-[#000]"
+            class="text-xs leading-[18px] font-bold tracking-[1.04px] uppercase text-[#FF7E00]"
             >BOOKS</a
           >
           <div
@@ -833,7 +834,8 @@
   </div>
 
   <main>
-    <p class="text-center text-3xl pt-8">Books</p>
+    <p class="text-center text-sm pt-8"><a href="">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="">Books</a></p>
+    <p class="text-center text-3xl pt-4 pb-8">Books</p>
     <section class="flex">
       <aside class="lg:block hidden">
         <span class="">FILTERS</span>
@@ -904,8 +906,8 @@
                 src="https://cdn.shopify.com/s/files/1/0648/3066/9017/products/9781847941831_360x.jpg?v=1680197451"
                 alt="">
             </div>
-            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href=""></a></div>
-            <div class="author"><a href="">Atomic Habits: The Life-Cha...</a></div>
+            <div class="name xl:mt-4 lg:mt-3 mt-2"><a href="">Atomic Habits: The Life-Cha...</a></div>
+            <div class="author"><a href="">James Clear</a></div>
             <div class="price xl:mt-4 lg:mt-3 mt-2 text-lg"><a href="">₹799</a></div>
             <div class="bag w-full flex justify-center items-center xl:mt-2 lg:mt-3 mt-2">
               <p>ADD TO BAG</p>
@@ -1186,7 +1188,7 @@
             <input
               type="email"
               placeholder="Email Id"
-              class="py-3 px-2 border-2 rounded-lg border-black w-full"
+              class="py-3 px-2 border rounded-lg border-black w-full"
             />
             <i
               class="fa-solid fa-arrow-right absolute right-[10px] bottom-[25%] text-2xl"
