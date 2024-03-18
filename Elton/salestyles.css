@@ -33,6 +33,16 @@ main section .right .sort {
     top: -7vh;
     right: 2vw;
 }
+main section .right .price{
+    font-size:15px;
+}
+main section .right .specialll{
+    text-decoration: line-through;
+    color:rgb(150, 149, 149);
+}
+main section .right .greennn{
+    color: green;
+}
 
 main section .right .items .item .pic {
     height: 33vh;
@@ -210,12 +220,6 @@ top: 32px;
     main section .right .items .item .pic {
         height: 33vh;
         width: 30vw;
-    }
-}
-@media (max-width:480px){
-    main section .right .items .item .pic {
-        height: 33vh;
-        width: 34vw;
     }
 }
 @media (max-width:480px){
