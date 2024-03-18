@@ -49,7 +49,8 @@ body{
 
 
   ::-webkit-scrollbar {
-    width: 10px;
+ 
+    height: 5px;
   }
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
@@ -193,24 +194,84 @@ body{
   
     @media screen and (max-width:400px){
       .padding-responsive{
-        padding: 0;
+        padding: 8px;
       }
-    }
+      .logo{
+        width: 104px;
+      }
+      .card-parent-container{
+        justify-content: space-evenly;
+      }
+        .cards-container4 img, .cards-container5 img{
+          width: 140px;
+        }
+        .cards-container4{
+          margin-right: 4px;
+        }
+        .cards-container4 , .cards-container5{
+         
+          transition: all 0.3s;
+        
+        }
+        .cards-container4:hover , .cards-container5:hover{
+            transform: scale(1.03);
+        }
+
+        .card-container5 img, .card-container6 img{
+          width: 140px;
+        }
+        .card-container5 , .card-container6{
+          transition: all 0.3s;
+
+        }
+        .card-container5:hover , .card-container6:hover{
+            transform: scale(1.03);
+            font-weight: 600;
+        }
+        /* .image-effect{
+           justify-content: start;
+        }
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        } */
+     
+      }
+        
+
+    
 
 
 /******************* THIS CSS OTHER MEMBER CAN COPY  ITS END  HERE ******/
 
 
-
+ 
     @media screen and (max-width:1000px){
       .card-container1{
          display: none;
+       }
+       .navbar-container{
+         overflow-x: scroll;
+         overflow-y: hidden;
        }
      }
      @media screen and (max-width:900px){
       .card-container2{
          display: none;
        }
+       .carousel-item1 {
+        flex: 0 0 25%; /* 20% width to display 5 items at a time */
+      }
      }
    @media screen and (max-width:800px){
     .card-container2{
@@ -218,6 +279,9 @@ body{
      }
      .card-container3{
       display: none;
+    }
+    .carousel-item1 {
+      flex: 0 0 45%; /* 20% width to display 5 items at a time */
     }
    }
     @media screen and (max-width:550px){
@@ -239,6 +303,9 @@ body{
       }
       .card-container4{
         display: none;
+      }
+      .carousel-item1 {
+        flex: 0 0 65%; /* 20% width to display 5 items at a time */
       }
    
     }
