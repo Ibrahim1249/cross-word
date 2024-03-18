@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat,sans-serif;
+}
+
+.bg-color{
+    background-color: #FFE619;
+}
+.bg-color-1{
+    background-color: #32CACE;
+}
+.bg-color-2{
+    background-color: #A3B7F0;
+}
+.color{
+    color: #3e434b;
+}
+main > p a:hover{
+    color: #FF7E00;
+  }
+
+main section aside>span {
+    position: absolute;
+    top: -5vh;
+    left: 6.6vw;
+}
+
+main section aside {
+    width: 100%;
+    position: relative;
+}
+
+main section aside>div {
+    margin-left: 6.5vw;
+}
+
+main section .right {
+    position: relative;
+}
+
+main section .right .sort {
+    position: absolute;
+    top: -7vh;
+    right: 2vw;
+}
+main section .right .specialll{
+    text-decoration: line-through;
+    color:rgb(150, 149, 149);
+}
+main section .right .greennn{
+    color: green;
+}
+main section .right .name{
+    font-size:14px;
+}
+main section .right .author{
+    font-size:12px;
+}
+main section .right .items .item .pic {
+    height: 38vh;
+    width: 15vw;
+}
+
+main section .items .author a {
+    color: #1f4f95;
+}
+
+main section .bag p {
+    font-size: 10px;
+    border: solid black 1px;
+    margin-left: 8%;
+    padding: 3.5% 8%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main section .bag i {
+    padding-left: 6%;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.drop{
+
+    height: 0;
+    border: 0;
+    transition: all 300ms;
+    overflow: hidden;
+}
+
+.dropdown:hover .drop{
+  border: 1px solid ;
+top: 32px;
+  height: fit-content;
+  overflow: visible;
+}
+/* .dropdown:hover {
+    height: fit-content;
+} */
+
+.truck-color{
+    background-color: #F5F5F5;
+}
+
+  .btn button{
+    text-align: center;
+    font: 500 10px / 13px Montserrat;
+    letter-spacing: .5px;
+    color: #000;
+    text-transform: uppercase;
+    width: 104px !important;
+    height: 30px;
+    border: 1px solid;
+    transition: all 0.3s;
+    
+  }
+  .btn button:hover{
+    background-color: black;
+    color: #F5F5F5;
+  }
+  .dropdown > a {
+    padding-bottom: 10px;
+  }
+  .dropdown > a:hover{
+    border-bottom: 3px solid black;
+
+  }
+
+  #footer-1{
+    position: relative;
+  }
+
+  #footer-1::after{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    top: 0;
+  }
+.footer-content h3{
+    border-bottom: 1px solid #cccccc;
+}
+  .footer-content li{
+     margin-top: 1px;
+     margin-bottom: 1px;
+    font-family: Montserrat;
+    letter-spacing: .6px;
+    color: #3e434b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px
+  }
+  .footer-content li a:hover{
+     border-bottom: 1px solid #cccccc;
+  }
+
+  .list ul a{
+    font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #3e434b;
+  line-height: 20px;
+  font-family: Montserrat;
+  text-transform: capitalize;
+  transition: all 0.3s;
+  }
+  
+  .list ul a:hover{
+    color: #FF7E00;
+  }
+  .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.filter-heading {
+    font-weight: bold;
+}
+
+.Category {
+    width: 100%;
+    max-width: 400px; /* Set maximum width to prevent it from becoming too wide */
+}
+
+.category-list {
+    display: none; /* Initially hide the category lists */
+    margin-top: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.category-list li {
+    margin-top: 5px;
+}
+
+.category-list li label {
+    cursor: pointer;
+}
+.pic {
+    position: relative;
+}
+
+.sort {
+    position: fixed; /* Fixed positioning to keep it visible even when scrolling */
+    top: 20px; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+    z-index: 1000; /* Ensure the sort section is on top of other elements */
+    background-color: white; /* Set background color to make it clearly visible */
+    padding: 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Add border for better separation from other elements */
+    border-radius: 5px; /* Add border-radius for better appearance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+}
+
+
+/* Regular styles for sort section */
+.sort {
+    position: relative; /* Ensure sort section stays in the document flow */
+    z-index: 1; /* Ensure the sort section is on top of other elements */
+}
+
+
+/* Regular styles for sorting options */
+.sort {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* Hide the backside image by default */
+.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* Show the backside image when the front image is hovered */
+.pic:hover .back-image {
+    display: block;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .Category {
+        width: 100%; /* Reset width for regular screens */
+    }
+
+    .category-list {
+        display: block; /* Show category lists for larger screens */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Category {
+        max-width: 400px; /* Set maximum width for smaller screens */
+    }
+
+    .filters {
+        display: none; /* Hide entire filters section for smaller screens */
+    }
+}
+
+  
+
+@media (max-width:1279px){
+    main section .right .items .item{
+        margin-bottom:2vh;
+    }
+}
+@media (max-width:1222px){
+    main section .right .sort {
+        top: -10vh;
+        right: 2vw;
+    }   
+}
+@media (max-width:878px){
+    main section .right .items .item .pic {
+        height: 33vh;
+        width: 19vw;
+    }
+}
+@media (max-width:878px){
+    main section .right .items .item .pic {
+        height: 33vh;
+        width: 22vw;
+    }
+}
+@media(max-width:699px){
+    
+    main section .right .items .item .pic {
+        height: 33vh;
+        width: 15vw;
+    }
+    
+    main section .items .name {
+        font-size: small;
+    }
+    main section .items .price {
+        font-size:small ;
+    }
+    
+    main section .bag p {
+        font-size: 8px;
+        border: solid black 1px;
+        margin-left: 8%;
+        padding: 3% 7%;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+@media (max-width:562px){
+    main section .right .sort{
+        display: none;
+    }
+    main section .right .items .item .pic {
+        height: 33vh;
+        width: 25vw;
+    }
+}
+@media (max-width:542px){
+    main section .right .items .item .pic {
+        height: 33vh;
+        width: 30vw;
+    }
+}
+@media (max-width:480px){
+    main section .right .items .item .pic {
+        height: 33vh;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:400px){
+    .padding-responsive{
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width:1000px){
+    .card-container1{
+       display: none;
+     }
+     .navbar-container{
+       overflow-x: scroll;
+       overflow-y: hidden;
+     }
+   }
+   @media screen and (max-width:900px){
+    .card-container2{
+       display: none;
+     }
+     .carousel-item1 {
+      flex: 0 0 25%; /* 20% width to display 5 items at a time */
+    }
+   }
+ @media screen and (max-width:800px){
+  .card-container2{
+     display: none;
+   }
+   .card-container3{
+    display: none;
+  }
+  .carousel-item1 {
+    flex: 0 0 25%; /* 20% width to display 5 items at a time */
+  }
+  .carousel-link{
+    font-size: 12px;
+  }
+ }
+ @media screen and (max-width:650px) {
+    .img-card{
+      display: none;
+    }
+    .carousel-item1 {
+      flex: 0 0 45%; /* 20% width to display 5 items at a time */
+    }
+    .carousel-link{
+      font-size: 12px;
+    }
+    .carousel-wrapper1{
+      column-gap: 1.5rem;
+    }
+ }
+  @media screen and (max-width:550px){
+
+    .reponsive{
+      display: none;
+    }
+    .container-reponsive{
+      display: block;
+    }
+    .container-repo{
+      max-width: 100%;
+      max-height: 100%;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .cards-container3{
+       display: none;
+    }
+    .card-container4{
+      display: none;
+    }
+  
+ 
+  }
+  
+
+ 
