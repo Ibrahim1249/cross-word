@@ -1,107 +1,146 @@
 .bg-color{
-    background-color: #FFE619;
+  background-color: #FFE619;
 }
 .bg-color-1{
-    background-color: #32CACE;
+  background-color: #32CACE;
 }
 .bg-color-2{
-    background-color: #A3B7F0;
+  background-color: #A3B7F0;
 }
 .color{
-    color: #3e434b;
+  color: #3e434b;
 }
 body{
-    font-family: Montserrat , sans-serif;
+  font-family: Montserrat , sans-serif;
 }
 li{
-    list-style: none;
+  list-style: none;
 }
-
+.logo{
+ cursor: pointer;
+}
 .drop{
 
-    height: 0;
-    border: 0;
-    transition: all 300ms;
-    overflow: hidden;
+  height: 0;
+  border: 0;
+  transition: all 300ms;
+  overflow: hidden;
 }
 
 .dropdown:hover .drop{
-  border: 1px solid ;
+border: 1px solid ;
 top: 32px;
-  height: fit-content;
-  overflow: visible;
+height: fit-content;
+overflow: visible;
 }
 
 
 .truck-color{
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+
+height: 5px;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #555;
 }
 
 
-  #footer-1{
-    position: relative;
-  }
 
-  #footer-1::after{
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    background-color: black;
-    top: 0;
-  }
+#footer-1{
+  position: relative;
+}
+
+#footer-1::after{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  top: 0;
+}
 .footer-content h3{
-    border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
-  .footer-content li{
-     margin-top: 1px;
-     margin-bottom: 1px;
-    font-family: Montserrat;
-    letter-spacing: .6px;
-    color: #3e434b;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 26px
+.footer-content li{
+   margin-top: 1px;
+   margin-bottom: 1px;
+  font-family: Montserrat;
+  letter-spacing: .6px;
+  color: #3e434b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 26px
+}
+.footer-content li a:hover{
+   border-bottom: 1px solid #cccccc;
+}
+
+.btn button{
+  text-align: center;
+  font: 500 10px / 13px Montserrat;
+  letter-spacing: .5px;
+  color: #000;
+  text-transform: uppercase;
+  width: 104px !important;
+  height: 30px;
+  border: 1px solid;
+  transition: all 0.3s;
+  
+}
+.btn button:hover{
+  background-color: black;
+  color: #F5F5F5;
+}
+.dropdown > a {
+  padding-bottom: 10px;
+}
+.dropdown > a:hover{
+  border-bottom: 3px solid black;
+
+}
+
+
+
+  .list ul a{
+    font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  color: #3e434b;
+  line-height: 20px;
+  font-family: Montserrat;
+  text-transform: capitalize;
+  transition: all 0.3s;
   }
-  .footer-content li a:hover{
-     border-bottom: 1px solid #cccccc;
+  
+  .list ul a:hover{
+    color: #FF7E00;
   }
 
-  .btn button{
-    text-align: center;
-    font: 500 10px / 13px Montserrat;
-    letter-spacing: .5px;
-    color: #000;
-    text-transform: uppercase;
-    width: 104px !important;
-    height: 30px;
-    border: 1px solid;
-    transition: all 0.3s;
-    
-  }
-  .btn button:hover{
-    background-color: black;
-    color: #F5F5F5;
-  }
-  .dropdown > a {
-    padding-bottom: 10px;
-  }
-  .dropdown > a:hover{
-    border-bottom: 3px solid black;
 
-  }
+  @media screen and (max-width:1000px){
 
-
-    .list ul a{
-      font-size: 14px;
-    font-weight: 600;
-    letter-spacing: .7px;
-    color: #3e434b;
-    line-height: 20px;
-    font-family: Montserrat;
-    text-transform: capitalize;
-    transition: all 0.3s;
+     .navbar-container{
+       overflow-x: scroll;
+       overflow-y: hidden;
+     }
+   }
+   @media screen and (max-width:550px){
+    .reponsive{
+      display: none;
     }
-    
-    .list ul a:hover{
-      color: #FF7E00;
+  }
+  @media screen and (max-width:400px){
+ 
+    .logo{
+      width: 104px;
     }
+  }

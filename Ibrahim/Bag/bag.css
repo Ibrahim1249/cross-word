@@ -16,7 +16,9 @@ body{
 li{
     list-style: none;
 }
-
+.logo{
+   cursor: pointer;
+  }
 .drop{
 
     height: 0;
@@ -37,6 +39,20 @@ top: 32px;
     background-color: #F5F5F5;
 }
 
+::-webkit-scrollbar {
+ 
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 
 
@@ -110,7 +126,27 @@ top: 32px;
     }
 
 
+    @media screen and (max-width:1000px){
 
+       .navbar-container{
+         overflow-x: scroll;
+         overflow-y: hidden;
+       }
+     }
+     @media screen and (max-width:550px){
+      .reponsive{
+        display: none;
+      }
+    }
+    @media screen and (max-width:400px){
+   
+      .logo{
+        width: 104px;
+      }
+    }
+
+
+    
 
    @media screen and (max-width:700px){
  
@@ -119,7 +155,7 @@ top: 32px;
     }
    }
    @media screen and (max-width:550px){
- 
+  
     .cards-container2{
      display: none;
    }
@@ -127,6 +163,7 @@ top: 32px;
     justify-content: space-between;
    }
   }
+
 
     
 
