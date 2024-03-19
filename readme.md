@@ -85,8 +85,10 @@ The website UI closely resembles the original Crossword website, with a clean an
 **MacBook Pro**
 ![Screenshot](Screenshot/Screenshot-6.jpeg)
 
- <p align="center">**Responsive in iPhone 12 Pro**</p>
-![Screenshot](Screenshot/Screenshot-7.jpeg)
+ <p align="center">
+ <img src="Screenshot/Screenshot-7.jpeg">
+</p>
+
 
 
 ## Conclusion
