@@ -76,14 +76,14 @@ The website UI closely resembles the original Crossword website, with a clean an
 
 ## Screenshots
 
-![Screenshot](Screenshot/Screenshot-1.png)
-![Screenshot](Screenshot/Screenshot-2.png)
-![Screenshot](Screenshot/Screenshot-3.png)
-![Screenshot](Screenshot/Screenshot-4.png)
-![Screenshot](Screenshot/Screenshot-5.png)
-![Screenshot](Screenshot/Screenshot-6.png)
-![Screenshot](Screenshot/Screenshot-7.png)
-![Screenshot](Screenshot/Screenshot-8.png)
+![Screenshot](Screenshot/Screenshot-1.jpeg)
+![Screenshot](Screenshot/Screenshot-2.jpeg)
+![Screenshot](Screenshot/Screenshot-3.jpeg)
+![Screenshot](Screenshot/Screenshot-4.jpeg)
+![Screenshot](Screenshot/Screenshot-5.jpeg)
+![Screenshot](Screenshot/Screenshot-6.jpeg)
+![Screenshot](Screenshot/Screenshot-7.jpeg)
+![Screenshot](Screenshot/Screenshot-8.jpeg)
 
 ## Conclusion
 
