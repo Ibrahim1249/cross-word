@@ -1,0 +1,13 @@
+
+
+Mentor : Anchit Julaniya 
+
+Task assign to each member are list below
+
+Ibrahim (Captain) : Entire HomePage , kid books , wishlist(heart icon) , sign in (user icon) , Cart (bag icon) , Find the Store (location icon) , Take Your order and Gift page
+
+Elton  : Top50 , Books , Stationery & Gifts and Sale pages
+
+Siddharth : Crossword Recommends and Young adult page
+
+Saiqua : New & Noteworthy and Toys Game pages
